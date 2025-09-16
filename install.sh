@@ -3,4 +3,9 @@
 # exit on failure
 set -e
 
-chmod +x scripts/apps_install.sh
+# Make sure all app scripts are executable
+chmod +x scripts/apps/*.sh
+
+# Run install scripts
+./scripts/apps/base_install.sh
+./scripts/apps/brave_install.sh
