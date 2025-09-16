@@ -1,6 +1,7 @@
 # Agent Pingu
 
 A Tiling Window Manager inspired setup on top of **GNOME** and **Ubuntu**
+
 _Productivity of a Tiling WM with the comfort of GNOME_
 
 ---
