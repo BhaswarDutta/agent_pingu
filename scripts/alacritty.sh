@@ -18,3 +18,17 @@ fc-list | grep "JetBrainsMono" || echo "JetBrainsMono Nerd Font Installation Fai
 mkdir -p ~/.config/alacritty
 cp "templates and configs/alacritty.toml" ~/.config/alacritty/alacritty.toml
 echo "Alacritty config Installed"
+
+# [SUPER] + T to launch Alacritty
+# Define the path for the new custom keybinding
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings \
+"['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/alacritty/']"
+
+# Set the name
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/alacritty/ name 'Alacritty'
+
+# Set the command to run
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/alacritty/ command 'alacritty'
+
+# Set the binding (Super+t)
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/alacritty/ binding '<Super>t'
