@@ -13,4 +13,5 @@ sudo apt install -y \
     gnome-shell-extension-manager \
     mpv \
     git \
-    curl
+    curl \
+    obs-studio
