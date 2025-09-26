@@ -1,3 +1,7 @@
+# ⚠ THIS PROJECT IS A WORK IN PROGRESS ⚠
+
+# ⚠ NOT MEANT FOR USE YET ⚠
+
 # Agent Pingu
 
 A Tiling Window Manager inspired setup **on top of GNOME and Ubuntu**.
