@@ -11,7 +11,9 @@ chmod +x scripts/*.sh
 sudo dnf install -y obs-studio mpv qbittorrent fastfetch
 
 # Run install scripts
+# Install and Setup Alacritty
 ./scripts/alacritty.sh
 
+# Install and Setup Brave
 ./scripts/brave.sh
 # ./scripts/apps/zed_install.sh
