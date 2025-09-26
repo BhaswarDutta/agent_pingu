@@ -16,6 +16,9 @@ sudo dnf install -y brave-browser
 # Make sure Brave is closed
 pkill brave-browser || true  # ignore error if Brave isn't running
 
+# Ensure Brave profile directory exists
+mkdir -p "$HOME/.config/BraveSoftware/Brave-Browser/Default"
+
 # Copy Brave config
 unzip -o "$HOME/agent_pingu/templates and configs/brave-template.zip" -d "$HOME/.config/BraveSoftware/Brave-Browser/Default"
 
