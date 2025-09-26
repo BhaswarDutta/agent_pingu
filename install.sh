@@ -13,5 +13,5 @@ sudo dnf install -y obs-studio mpv qbittorrent fastfetch
 # Run install scripts
 ./scripts/alacritty.sh
 
-# ./scripts/apps/brave_install.sh
+./scripts/brave.sh
 # ./scripts/apps/zed_install.sh
