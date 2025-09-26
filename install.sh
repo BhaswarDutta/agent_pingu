@@ -6,9 +6,12 @@ set -e
 # Make sure all app scripts are executable
 chmod +x scripts/*.sh
 
+
+# Base install
+sudo dnf install -y obs-studio mpv qbittorrent
+
 # Run install scripts
-./scripts/apps/base_install.sh
-./scripts/apps/alacritty.sh
+./scripts/alacritty.sh
 
 # ./scripts/apps/brave_install.sh
 # ./scripts/apps/zed_install.sh
