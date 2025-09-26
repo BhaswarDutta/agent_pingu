@@ -3,6 +3,9 @@
 # exit on failure
 set -e
 
+# Install Alacritty Terminal
+sudo dnf install -y alacritty
+
 # Download and Install JetBrainsMono Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
 unzip JetBrainsMono.zip -d JetBrainsMonoNerdFont
