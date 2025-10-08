@@ -9,8 +9,8 @@ chmod +x scripts/*.sh
 
 # Run install scripts
 # Install and Setup Alacritty
-./scripts/alacritty.sh
+./scripts/terminal.sh
 
 # Install and Setup Brave
-./scripts/brave.sh
+# ./scripts/brave.sh
 # ./scripts/apps/zed_install.sh
