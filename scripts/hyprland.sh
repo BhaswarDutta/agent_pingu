@@ -25,4 +25,10 @@ chmod +x ~/.config/scripts/wallpaper.sh
 chmod +x ~/.config/scripts/wallpaper_startup.sh
 chmod +x ~/.config/rofi/rofi_launcher.sh
 
+# Install certain utilities
+sudo dnf install -y pavucontrol blueman papirus-icon-theme
+
+# Set GTK Icon theme to papirus
+gsettings set org.gnome.desktop.interface icon-theme "Papirus"
+
 echo "✅ Hyprland setup complete!"
