@@ -4,7 +4,7 @@
 set -e
 
 # Install Alacritty Terminal
-sudo dnf install -y alacritty fish fastfetch
+sudo dnf install -y alacritty fish fastfetch curl
 
 # Download and Install JetBrainsMono Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
@@ -26,3 +26,6 @@ echo "Alacritty config Installed"
 mkdir -p ~/.config/fish
 cp "templates and configs/config.fish" ~/.config/fish/config.fish
 echo "Fish config Installed"
+
+# Install Starship Prompt
+curl -sS https://starship.rs/install.sh | sh
