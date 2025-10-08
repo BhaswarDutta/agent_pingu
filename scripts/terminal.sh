@@ -39,3 +39,6 @@ cp -r "templates and configs/fastfetch" ~/.config/
 # Add COPR repo for eza and install eza
 sudo dnf copr enable alternateved/eza
 sudo dnf install -y eza
+
+# Change default shell to Fish
+chsh -s $(which fish)
