@@ -35,3 +35,7 @@ cp "templates and configs/starship.toml" ~/.config/starship.toml
 
 # Copy Fastfetch Config
 cp -r "templates and configs/fastfetch" ~/.config/
+
+# Add COPR repo for eza and install eza
+sudo dnf copr enable alternateved/eza
+sudo dnf install -y eza
