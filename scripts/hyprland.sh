@@ -10,3 +10,15 @@ sudo dnf copr enable -y solopasha/hyprland
 
 # Install more packages
 sudo dnf install -y swww hyprlock swaync
+
+# Copy the Configs
+cp -r "templates and configs/hypr" ~/.config/
+cp -r "templates and configs/rofi" ~/.config/
+cp -r "templates and configs/scripts" ~/.config/
+cp -r "templates and configs/waybar" ~/.config/
+
+# Give permissions to the scripts
+chmod +x ~/.config/waybar/launch.sh
+chmod +x ~/.config/scripts/wallpaper.sh
+chmod +x ~/.config/scripts/wallpaper_startup.sh
+chmod +x ~/.config/rofi/rofi_launcher.sh
