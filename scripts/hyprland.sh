@@ -17,10 +17,12 @@ cp -r "templates and configs/rofi" ~/.config/
 cp -r "templates and configs/scripts" ~/.config/
 cp -r "templates and configs/waybar" ~/.config/
 # Copy the Wallpapers
-cp -r Wallpapers ~/Pictures
+cp -r Wallpapers/* ~/Pictures/
 
 # Give permissions to the scripts
 chmod +x ~/.config/waybar/launch.sh
 chmod +x ~/.config/scripts/wallpaper.sh
 chmod +x ~/.config/scripts/wallpaper_startup.sh
 chmod +x ~/.config/rofi/rofi_launcher.sh
+
+echo "✅ Hyprland setup complete!"
