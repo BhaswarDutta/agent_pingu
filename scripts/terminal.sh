@@ -4,7 +4,7 @@
 set -e
 
 # Install Alacritty Terminal
-sudo dnf install -y alacritty
+sudo dnf install -y alacritty fish fastfetch
 
 # Download and Install JetBrainsMono Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
