@@ -32,3 +32,6 @@ curl -sS https://starship.rs/install.sh | sh
 
 # Copy Starship Config
 cp "templates and configs/starship.toml" ~/.config/starship.toml
+
+# Copy Fastfetch Config
+cp -r "templates and configs/fastfetch" ~/.config/
