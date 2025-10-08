@@ -41,4 +41,4 @@ sudo dnf copr enable -y alternateved/eza
 sudo dnf install -y eza
 
 # Change default shell to Fish
-chsh -s "$(which fish)" "$USER"
+sudo usermod -s "$(which fish)" "$USER"
