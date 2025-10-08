@@ -28,7 +28,7 @@ cp "templates and configs/config.fish" ~/.config/fish/config.fish
 echo "Fish config Installed"
 
 # Install Starship Prompt
-curl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh -s -- -y
 
 # Copy Starship Config
 cp "templates and configs/starship.toml" ~/.config/starship.toml
@@ -37,8 +37,8 @@ cp "templates and configs/starship.toml" ~/.config/starship.toml
 cp -r "templates and configs/fastfetch" ~/.config/
 
 # Add COPR repo for eza and install eza
-sudo dnf copr enable alternateved/eza
+sudo dnf copr enable -y alternateved/eza
 sudo dnf install -y eza
 
 # Change default shell to Fish
-chsh -s $(which fish)
+chsh -s "$(which fish)" "$USER"
