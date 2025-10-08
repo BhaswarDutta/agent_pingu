@@ -7,9 +7,6 @@ set -e
 chmod +x scripts/*.sh
 
 
-# Base install
-sudo dnf install -y obs-studio mpv qbittorrent fastfetch
-
 # Run install scripts
 # Install and Setup Alacritty
 ./scripts/alacritty.sh
