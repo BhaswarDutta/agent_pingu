@@ -8,9 +8,8 @@ chmod +x scripts/*.sh
 
 
 # Run install scripts
-# Install and Setup Alacritty
+# Terminal
 ./scripts/terminal.sh
 
-# Install and Setup Brave
-# ./scripts/brave.sh
-# ./scripts/apps/zed_install.sh
+# Hyprland
+./scripts/hyprland.sh
