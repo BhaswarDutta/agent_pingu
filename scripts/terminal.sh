@@ -21,3 +21,8 @@ fc-list | grep "JetBrainsMono" || echo "JetBrainsMono Nerd Font Installation Fai
 mkdir -p ~/.config/alacritty
 cp "templates and configs/alacritty.toml" ~/.config/alacritty/alacritty.toml
 echo "Alacritty config Installed"
+
+# Copy Fish Config
+mkdir -p ~/.config/fish
+cp "templates and configs/config.fish" ~/.config/fish/config.fish
+echo "Fish config Installed"
