@@ -4,27 +4,35 @@
 
 # Agent Pingu
 
-A Tiling Window Manager inspired setup **on top of GNOME and Ubuntu**.
+A Hyprland Tiling Window Manager setup **on top of Fedora Workstation**.
 
-_Enjoy the productivity of a tiling window manager with the comfort and familiarity of GNOME._
+_Enjoy the productivity and flare of Hyprland with the stability of Fedora._
 
 ---
 
 ## ⚡ Prerequisites
 
-**Note:** This setup is recommended **only on a fresh installation of Ubuntu**. Running it on an existing system may overwrite configs and installed packages.
+**Note:** This setup is recommended **only on a fresh installation of Fedora Workstation**. Running it on an existing system may overwrite configs and installed packages.
 
-1. Install `git` if not already installed:
+- Update the system
 
 ```bash
-sudo apt install git -y
+sudo dnf update -y
 ```
 
-2. Clone the repository and navigate into it:
+- Check for `git`
 
 ```bash
-git clone https://github.com/BhaswarDutta/agent_pingu.git
-cd agent_pingu
+git --version
+```
+
+- Possible outputs:
+  - `git version X.XX.X` → Git is installed
+  - `bash: git: command not found...` → Git is not installed
+- Install `git` (if not installed).
+
+```bash
+sudo dnf install git -y
 ```
 
 ---
