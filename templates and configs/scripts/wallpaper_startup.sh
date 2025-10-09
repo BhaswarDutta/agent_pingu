@@ -1,7 +1,7 @@
 #!/bin/bash
 
-swww init
-swww-daemon --format xrgb
+swww-daemon &
 
 sleep 0.5
-~/.config/scripts/wallpaper.sh
+
+~/.config/scripts/wallpaper.sh &
