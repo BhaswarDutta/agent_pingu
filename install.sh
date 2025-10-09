@@ -11,5 +11,8 @@ chmod +x scripts/*.sh
 # Terminal
 ./scripts/terminal.sh
 
+# Brave
+./scripts/brave.sh
+
 # Hyprland
 ./scripts/hyprland.sh
