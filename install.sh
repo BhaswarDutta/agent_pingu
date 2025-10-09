@@ -16,3 +16,6 @@ chmod +x scripts/*.sh
 
 # Hyprland
 ./scripts/hyprland.sh
+
+# Zed
+./scripts/zed.sh
