@@ -1,0 +1,53 @@
+{
+  "disable_ai": true,
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Material Icon Theme"
+  },
+
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 14,
+
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 16,
+  "buffer_font_features": {
+    "liga": true,
+    "clig": true,
+    "calt": true
+  },
+
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha"
+  },
+
+  "current_line_highlight": "none",
+  "selection_highlight": false,
+
+  "format_on_save": "on",
+
+  "soft_wrap": "editor_width",
+  "preferred_line_length": 80,
+  "show_wrap_guides": true,
+
+  "languages": {
+    "Python": {
+      "formatter": {
+        "external": {
+          "command": "uv",
+          "arguments": ["run", "black", "--quiet", "-"]
+        }
+      },
+      "format_on_save": "on"
+    }
+  },
+  "auto_install_extensions": {
+    "html": true,
+    "catppuccin": true,
+    "toml": true,
+    "fish": true,
+    "material-icon-theme": true
+  }
+}
