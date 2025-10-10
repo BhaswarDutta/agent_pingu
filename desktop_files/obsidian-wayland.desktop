@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Obsidian (Wayland)
-Comment=Obsidian Markdown Editor on Wayland
-Exec=env ELECTRON_ENABLE_WAYLAND=1 ELECTRON_USE_GL=egl /home/agent/AppImages/Obsidian-1.9.14.AppImage --ozone-platform=wayland
-Icon=obsidian
-Terminal=false
-Type=Application
-Categories=Office;Utility;
-StartupNotify=true
