@@ -25,3 +25,9 @@ run_script "scripts/webapps.sh"
 run_script "scripts/obsidian.sh"
 run_script "scripts/spotify.sh"
 run_script "scripts/misc.sh"
+
+clear
+echo -e "\e[1;32m We are done!!🎉🎉\e[0m"
+echo "Log out and select your profile"
+echo "Then select hyprland from the cog icon on the bottom right corner"
+echo "Log back in and enjoy your session"
