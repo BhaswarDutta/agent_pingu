@@ -19,3 +19,6 @@ chmod +x scripts/*.sh
 
 # Zed
 ./scripts/zed.sh
+
+# Obsidian
+./scripts/obsidian.sh
