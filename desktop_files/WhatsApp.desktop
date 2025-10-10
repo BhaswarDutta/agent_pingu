@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=WhatsApp
+Comment=WhatsApp Messenger
+Exec=brave-browser --app="https://web.whatsapp.com" --name=WhatsApp --class=WhatsApp
+Terminal=false
+Type=Application
+Icon=whatsapp
+Categories=Network;InstantMessaging;
+StartupNotify=true

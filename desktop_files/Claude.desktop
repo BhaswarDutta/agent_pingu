@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Claude AI
+Comment=Claude AI Assistant
+Exec=brave-browser --app="https://claude.ai/new" --name=Claude --class=Claude
+Terminal=false
+Type=Application
+Icon=~/.local/share/icons/Claude.png
+Categories=Network;Utility;
+StartupNotify=true

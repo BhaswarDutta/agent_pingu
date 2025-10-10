@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=ChatGPT
+Comment=ChatGPT AI Assistant
+Exec=brave-browser --app="https://chatgpt.com/" --name=ChatGPT --class=ChatGPT
+Terminal=false
+Type=Application
+Icon=~/.local/share/icons/ChatGPT.png
+Categories=Network;Utility;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupNotify=true
