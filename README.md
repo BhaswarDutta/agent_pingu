@@ -44,6 +44,8 @@ _Enjoy the productivity and flair of Hyprland with the stability of Fedora with 
 | `Shift + Prtsc`                       | Take Screenshot of a region                           |
 | `Super + 1/2/3/4/5/6/7/8/9/0`         | Move to Workspace 1/2/3/4/5/6/7/8/9/10                |
 | `Super + Shift + 1/2/3/4/5/6/7/8/9/0` | Move focused window to Workspace 1/2/3/4/5/6/7/8/9/10 |
+| `Super + Shift + W`                   | Change Wallpaper                                      |
+| `Super + Shift + B`                   | Reload Top Bar (Waybar)                               |
 
 ---
 
